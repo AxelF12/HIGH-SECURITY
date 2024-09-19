@@ -21,6 +21,7 @@ void motor_geoeffnet();
 void motor_1_geoffnet ();
 void motor_2_geoffnet ();
 void test_funktion ();
+void abfrage ();
 
 #endif //Schließt das IF ein, dass Oben begonnen wurden
 // PWM_CONTROL_H
