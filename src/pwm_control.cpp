@@ -109,3 +109,23 @@ void test_funktion ()
 
 }
 
+void abfrage ()
+{
+  if (state == LEVEL_2_UNLOCKED)
+{motor_1_geoffnet (); //neu
+}
+else if (state == LEVEL_3_UNLOCKED)
+{motor_1_geoffnet (); //neu
+ motor_2_geoffnet (); //neu
+}  
+else if (state == SAFE_LOCKED)
+{motor_geschlossen (); //neu
+}
+else if (state == LEVEL_1_UNLOCKED)
+  {motor_geschlossen (); //neu
+}
+else if (state == SAFE_OPEN)
+{motor_1_geoffnet (); //neu
+ motor_2_geoffnet (); //neu
+}  
+
